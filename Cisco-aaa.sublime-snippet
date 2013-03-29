@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+aaa authentication login default group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+tacacs-server host ${1:208.69.250.162} single-connection
+tacacs-server timeout 3
+tacacs-server directed-request
+tacacs-server key ${2:SECRET_KEY}
+line vty 0 ${3:4}
+ transport input ${4:ssh}
+ transport output telnet ssh
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>aaa</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
