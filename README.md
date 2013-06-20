@@ -19,3 +19,7 @@ To use the snippets, type the snippet name then hit tab. Some snippets allow you
 * `/24` - Expands into 255.255.255.0
 * `obj` - Creates an object-group
 * `route` - creates a route for an ASA
+
+## Further Reading
+See official website for further information and discussion.
+[http://www.tunnelsup.com/tup/2013/03/29/sublime-text-2-cisco-syntax-and-snippets](http://www.tunnelsup.com/tup/2013/03/29/sublime-text-2-cisco-syntax-and-snippets)
