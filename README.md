@@ -14,7 +14,6 @@ Sublime Text 2 Cisco Snippets. This package includes various snippets for Cisco 
 To use the snippets, type the snippet name then hit tab. Some snippets allow you to then tab through the config. Available snippets are:
 
 * `static` - Creates a static NAT for ASA 8.3+
-* `aaa` - Creates a script for adding AAA to a router/switch
 * `acl` - Creates an ACL for an ASA
 * `/24` - Expands into 255.255.255.0
 * `obj` - Creates an object-group
