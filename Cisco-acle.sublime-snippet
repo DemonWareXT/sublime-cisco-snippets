@@ -1,12 +1,9 @@
 <snippet>
 	<content><![CDATA[
-access-list ${1:99} remark ${2:ACL NAME}
-access-list ${1:99} permit ${3:IP} ${4:WILDCARD}
-access-list ${1:99} deny any log
-
+access-list ${1:NAME} extended permit ${2:ip} ${3:any} ${4:any}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>acl</tabTrigger>
+	<tabTrigger>acle</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>text.cisco</scope> -->
 </snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+default interface ${1:Gi} ${2:1}/${3:0}${4:/}${5:1}
+interface ${1:Gi} ${2:1}/${3:0}${4:/}${5:1}
+ description ${6:name}
+ switchport access vlan ${7:1}
+ switchport mode access
+ switchport mode access
+ no snmp trap link-status
+ storm-control broadcast level 20.00
+ spanning-tree bpdufilter enable
+ spanning-tree guard root
+ spanning-tree portfast
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ia</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.cisco</scope> -->
+</snippet>
+
+
